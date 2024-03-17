@@ -14,7 +14,7 @@ import Favorite from '@mui/icons-material/Favorite'
 
 export default function Post() {
 	return (
-		<Card>
+		<Card sx={{ marginBottom: 2 }}>
 			<CardHeader
 				avatar={
 					<Avatar sx={{ bgcolor: 'red' }} aria-label='recipe'>
