@@ -1,3 +1,18 @@
+import { Box } from '@mui/material'
+
 export default function Sidebar() {
-	return <div>Sidebar</div>
+	return (
+		<Box
+			flex={1}
+			p={2}
+			sx={{
+				display: {
+					xs: 'none',
+					sm: 'block',
+				},
+			}}
+			bgcolor='skyblue'>
+			Sidebar
+		</Box>
+	)
 }
